@@ -11,6 +11,15 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE і Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
