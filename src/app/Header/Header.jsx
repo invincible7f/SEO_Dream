@@ -26,7 +26,7 @@ export default function Header() {
           <div className="relative w-[30px] h-[30px]">
             <Image
               className="object-contain"
-              src="/images/logo-icon.png"
+              src="/logo-icon.png"
               fill
               alt="image"
               sizes="(max-width: 768px) 100vw,  (max-width: 1200px) 50vw, 43vw"

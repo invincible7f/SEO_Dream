@@ -29,7 +29,7 @@ export default function MainScreen() {
             viewport={{ once: true }}
           >
             <Image
-              src="/images/banner-dec-left.png"
+              src="/banner-dec-left.png"
               fill
               alt="image"
               priority={true}
@@ -48,7 +48,7 @@ export default function MainScreen() {
             viewport={{ once: true }}
           >
             <Image
-              src="/images/banner-right-image.png"
+              src="/banner-right-image.png"
               fill
               alt="image"
               priority={true}
@@ -65,7 +65,7 @@ export default function MainScreen() {
             viewport={{ once: true }}
           >
             <Image
-              src="/images/banner-dec-right.png"
+              src="/banner-dec-right.png"
               fill
               alt="image"
               sizes="100vw"

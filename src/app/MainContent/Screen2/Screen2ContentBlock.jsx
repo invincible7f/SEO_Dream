@@ -44,7 +44,7 @@ export default function Screen2ContentBlock({
             titleImage
           ) : (
             <Image
-              src={"/images/features-icon-0" + (index + 1) + ".png"}
+              src={"/features-icon-0" + (index + 1) + ".png"}
               fill
               alt="image"
             />
